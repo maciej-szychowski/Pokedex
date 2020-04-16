@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesone -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- style file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap&subset=latin-ext" rel="stylesheet">
+    <!-- script file -->
+    <script src="script.js" defer></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="img/pokemon.png" alt="logo">
+            </div>
+            <h1 class="header-title">Poke<span>dex</span></h1>
+        </div>
+    </header>
+    <nav class="navigation">
+        <div class="navigation-container">
+            <form class="form-name">
+                <input class="search-pokemon" type="text" placeholder="Wpisz nazwę pokemona">
+                <button class="btn-search">Szukaj</button>
+            </form>
+            <form class="form-type">
+                <h3>Typ</h3>
+                <select class="select-input">
+                    <option value="all">all</option>
+                    <option value="normal">normal</option>
+                    <option value="fighting">fighting</option>
+                    <option value="flying">flying</option>
+                    <option value="poison">poison</option>
+                    <option value="ground">ground</option>
+                    <option value="rock">rock</option>
+                    <option value="bug">bug</option>
+                    <option value="ghost">ghost</option>
+                    <option value="steel">steel</option>
+                    <option value="fire">fire</option>
+                    <option value="water">water</option>
+                    <option value="grass">grass</option>
+                    <option value="electric">electric</option>
+                    <option value="psychic">psychic</option>
+                    <option value="ice">ice</option>
+                    <option value="dragon">dragon</option>
+                    <option value="dark">dark</option>
+                    <option value="fairy">fairy</option>
+                </select>
+            </form>
+        </div>
+    </nav>   
+   <main>
+       <section class="pokemon-section">
+            <div class="pokemon">
+                <div class="pokemon-container">
+                </div>
+            </div>
+            <div class="btn-container"></div>
+       </section>
+       <div class="btn-arrow">
+            <i class="fas fa-chevron-circle-up"></i>
+       </div>
+   </main>
+
+</body>
+</html>
