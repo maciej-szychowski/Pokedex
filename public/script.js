@@ -108,7 +108,7 @@ class Pokedex {
         if(!searchInput.value) {
             return;  
         } else {
-            pokedex.searchPokemon(searchInput.value);
+            pokedex.searchPokemon(searchInput.value.toLowerCase());
             searchInput.value = "";
         }
     };
